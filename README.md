@@ -14,7 +14,7 @@ Hands-on labs from my Azure Fundementals training. Includes screenshots, steps, 
 
 - <b>Windows 11</b> (23H2)
 
-<h2>Program walk-through:</h2>
+<h2>Program walk-through: Creating resource groups & storage accounts</h2>
 
 <p align="center">
 Creating resource group: 1/2 <br/>
@@ -43,8 +43,74 @@ Editing text from within storage account /change in text now reflects in the not
 <br />
 Complete overview of storage account:  <br/>
 <img src="https://i.imgur.com/ZhgAL37.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
+
+<h2>Program walk-through: Creating virtual machines for Windows & Ubuntu (Linux) and Conducting ICMP traffic examination</h2>
+
+<p align="center">
+Windows VM: <br/>
+<img src="https://i.imgur.com/kXfVOKZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Creating Ubuntu (Linux) VM:  <br/>
+<img src="https://i.imgur.com/a4hQJ7X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Successful deployment of Ubuntu VM: <br/>
+<img src="https://i.imgur.com/odyL73Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Confirming that both VMs can successfully be located on the same network:  <br/>
+<img src="https://i.imgur.com/d7PqW7i.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Using remote desktop connection to connect to the Windows VM:  <br/>
+<img src="https://i.imgur.com/S4zc5NL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Connection successful: <br/>
+<img src="https://i.imgur.com/nl7OxMS.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Installing software (Wireshark) within the Windows VM. Allowing myself to monitor traffic coming to and from VMs: <br/>
+<img src="https://i.imgur.com/XkzqHaV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Inspecting data traffic (packets) on the backend of the network: <br/>
+<img src="https://i.imgur.com/NlHMqQD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+A filtered search for ICMP traffic only. *As displayed, no results at the time: <br/>
+<img src="https://i.imgur.com/x02Y5mH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Using Microsoft Powershell to ping the Ubuntu VM using IPv4 address: <br/>
+<img src="https://i.imgur.com/G6KYBHx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Data I received back from the PING command: <br/>
+<img src="https://i.imgur.com/CXxVrny.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+ 
+<h2>Configuring a firewall within the network security group: </h2>
+
+<p align="center">
+Initiating a non-stop PING from the Windows VM: <br/>
+<img src="https://i.imgur.com/7B20qxD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Disabling inbound traffic to Ubuntu VM from the Windows VM: <br/>
+<img src="https://i.imgur.com/O9KLVSm.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+2/2: <br/>
+<img src="https://i.imgur.com/D5FhsuO.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
+ 
 <!--
  ```diff
 - text in red
