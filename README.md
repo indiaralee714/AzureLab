@@ -9,10 +9,14 @@ Hands-on labs from my Azure Fundementals training. Includes screenshots, steps, 
 <h2>Utilities Used</h2>
 
 - <b>Microsoft Azure</b>
+- <b>Microsoft Powershell</b>
+- <b>Virtual Machines</b>
+- <b>Remote Desktop Connection</b>
+- <b>WireShark (Protocol Analyzer)</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 11</b> (23H2)
+- <b>Windows 10</b> (22H2)
 
 <h2>Program walk-through: Creating resource groups & storage accounts</h2>
 
@@ -108,7 +112,10 @@ Disabling inbound traffic to Ubuntu VM from the Windows VM: <br/>
 <img src="https://i.imgur.com/D5FhsuO.png"80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-
+Request timed out once incoming/inbound data was disabled and blocked by firewall: <br/>
+<img src="https://i.imgur.com/8XYhUqO.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
  
 <!--
