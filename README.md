@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-Hands-on labs from my Azure Fundementals training. Includes screenshots, steps, and lessons learned.
+Hands-on labs from my Azure Fundamentals training. Includes screenshots, steps, and lessons learned.
 <br />
 
 
