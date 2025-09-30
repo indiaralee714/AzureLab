@@ -49,7 +49,7 @@ Complete overview of storage account:  <br/>
 <img src="https://i.imgur.com/ZhgAL37.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
-<h2>Program walk-through: Creating virtual machines for Windows & Ubuntu (Linux) and Conducting ICMP traffic examination</h2>
+<h2>Creating virtual machines for Windows & Ubuntu (Linux) and Conducting ICMP traffic examination</h2>
 
 <p align="center">
 Windows VM: <br/>
