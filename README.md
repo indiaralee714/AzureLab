@@ -112,10 +112,58 @@ Disabling inbound traffic to Ubuntu VM from the Windows VM: <br/>
 <img src="https://i.imgur.com/D5FhsuO.png"80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Request timed out once incoming/inbound data was disabled and blocked by firewall: <br/>
+Request timed out once incoming/inbound data was disabled and blocked, firewall was successfully implemented: <br/>
 <img src="https://i.imgur.com/8XYhUqO.png"80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+
+<h2>Observing SSH traffic (TCP 22): </h2>
+
+ <p align="center">
+Filtering for SSH traffic only via Windows VM. *as displayed no results: <br/>
+<img src="https://i.imgur.com/OVQ4men.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Established a connection via SSH to the Ubuntu VM through powershell: <br/>
+<img src="https://i.imgur.com/m9E4HZO.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Newly accumulated SSH traffic after connecting to Ubuntu: <br/>
+<img src="https://i.imgur.com/BBX9lKa.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<h2>Observing DHCP traffic (UDP 67 & 68): </h2>
+
+<p align="center">
+Filtering for DHCP traffic. *no results as displayed: <br/>
+<img src="https://i.imgur.com/jl1fmOY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Running a script through powershell to obtain the DHCP release (IPv4): <br/>
+<img src="https://i.imgur.com/3sNFqLe.png"80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<h2>Observing DNS traffic (TCP & UDP 53): </h2>
+
+<p align="center">
+Using the DNC protocol to see data and IPv4 of "Instagram.com": <br/>
+<img src="https://i.imgur.com/WC7fC69.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+<h2>Observing RDP traffic (TCP 3389): </h2>
+
+<p align="center">
+Filtering for RDP traffic via Wireshark: <br/>
+<img src="https://i.imgur.com/CLVrXgG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
+
+
 
  
 <!--
